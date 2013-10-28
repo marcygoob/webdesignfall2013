@@ -3,15 +3,19 @@
 <head>
     <meta charset="utf-8" />
     <title>jquery test</title>
+     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+     <script src="jquery.tipsy.js"></script>
+     <link rel="stylesheet" href="stylesheet.css">
+<script type="text/javascript">
+      $( document ).ready(function() {
+ 
+		   $('#testtip').tipsy();
+		 
+		});
+</script>
+
 </head>
 <body>
-    <a href="http://jquery.com/">jQuery</a>
-    <script src="jquery.js"></script>
-    <script>
- 
- $('#example-1').tipsy();
-
- 
-    </script>
+    <a href="http://jquery.com/" id="testtip" title="Tooltip is a whole sentence.">jQuery</a>
 </body>
 </html>
