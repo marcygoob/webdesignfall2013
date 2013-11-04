@@ -6,16 +6,24 @@
      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
      <script src="jquery.tipsy.js"></script>
      <link rel="stylesheet" href="stylesheet.css">
+
+
 <script type="text/javascript">
       $( document ).ready(function() {
  
-		   $('#testtip').tipsy();
+		   $('.testtip').tipsy({gravity: 'nw'}); // nw | n | ne | w | e | sw | s | se
 		 
 		});
+
+
 </script>
 
 </head>
 <body>
-    <a href="http://jquery.com/" id="testtip" title="Tooltip is a whole sentence.">jQuery</a>
+
+
+    <a class="testtip" title="whatever"> i loooooove designing </a>
+        <a class="testtip" title="yeppirs"> i loooooove designing </a>
+
 </body>
 </html>
