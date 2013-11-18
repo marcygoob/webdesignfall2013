@@ -1,0 +1,189 @@
+@font-face
+{
+font-family: bleh;
+src: url(fonts/dinregular.woff);
+}
+
+@font-face
+{
+font-family: wah;
+src: url(fonts/futuramediumcondensed.woff);
+}
+
+@font-face
+{
+font-family: meow;
+src: url(fonts/dinoblique.woff);
+}
+
+
+
+h1 {
+	font-family: Helvetica;
+}
+
+body {
+	padding: 0px 50px 0px 50px;
+}
+
+
+
+a.visit {
+	text-decoration: none;
+	}
+
+#container {
+	position: absolute;
+	margin: 0 auto;
+	width: 1070px;
+}
+
+
+.language {
+	position: absolute;
+	font-family: bleh;
+	top: 35px;
+	right: 100px;
+	padding: 10px;
+	color:#ef083a;
+	list-style-type: none;
+	font-size: 16px;
+}
+
+
+
+.language a{
+	margin-left: 5px;
+}
+
+.here {
+	text-decoration: underline;
+	}
+	
+	
+a:link {
+	color: black;
+	text-decoration: none;
+}
+
+a.current {
+	text-decoration: underline;
+	}
+	
+.header {
+	font-size: 30px;
+	font-family: sans-serif;
+	padding-left: 10px;
+	padding-top: 20px;
+	margin-top: 20px;
+	color: black;
+}
+
+.text {
+	font-family: bleh;
+	font-size: 30px;
+	margin-top: 15px;
+	margin-right: 10px;
+	padding-left: 10px;
+	line-height: 37px;
+	color: black;
+	
+}
+
+.tip {
+	font-family: meow;
+	font-size: 40px;
+	margin: 4px;
+	padding: 0px;
+	color: red;
+}
+
+
+ul li {
+	list-style-type: none;
+}
+
+
+.english {
+	font-family: bleh;
+	font-size: 18px;
+	float: left;
+	margin-top: -10px;
+}
+
+.spanish {
+	font-family: meow;
+	font-size: 18px;
+	float: right;
+	margin-right: 820px;
+	margin-top: -10px;
+}
+
+h2 {
+	font-family: wah;
+	font-size: 20px;
+	margin-left: 40px;
+	margin-top: 30px;
+
+}
+
+h3 {
+	font-family: wah;
+	font-size: 20px;
+	margin-left: 40px;
+	margin-top: 100px;
+}
+
+h4 {
+	font-family: wah;
+	font-size: 20px;
+	margin-top: -260px;
+	margin-left: 378px;
+}
+
+.english2 {
+	font-family: bleh;
+	font-size: 18px;
+	float: right;
+	margin-right: 600px;
+	margin-top: -400px;
+}
+
+.spanish2 {
+	font-family: meow;
+	font-size: 18px;
+	float: right;
+	margin-right: 450px;
+	margin-top: -400px;
+}
+
+.english3 {
+	font-family: bleh;
+	font-size: 18px;
+	display: inherit;
+	margin-left: 340px;
+	margin-bottom: 1000px;
+}
+
+.spanish3 {
+	font-family: meow;
+	font-size: 18px;
+	display: inherit;
+	margin-left: 400px;
+	margin-bottom: 100px;
+}
+
+#milk {
+	margin-left: 250px;
+	margin-top: -170px;
+}
+
+#bed {
+	margin-right: -100px;
+	margin-top: -170px;
+}
+
+#dog {
+	margin-left: 1200px;
+	margin-top: -400px;
+}
