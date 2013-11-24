@@ -20,12 +20,48 @@ src: url(fonts/dinoblique.woff);
 
 h1 {
 	font-family: Helvetica;
+	font-size: 40px;
+	margin-top: 50px;
+	margin-left: 20px;
+	color: black;
+	width: 30px;
+	line-height: 32px;
+	
 }
 
-body {
-	padding: 0px 50px 0px 50px;
+p {
+	font-family: bleh;
+	font-size: 30px;
+	margin-top: 40px;
+	margin-right: 10px;
+	margin-left: 280px;
+	line-height: 37px;
+	color: black;
+	width: 800px;
 }
 
+p2 {
+	font-family: bleh;
+	font-size: 30px;
+	margin-left: 115px;
+	line-height: 37px;
+	color: black;
+	width: 800px;
+}
+
+p3 {
+	font-family: bleh;
+	font-size: 30px;
+	margin-left: 115px;
+	margin-bottom: 600px;
+	line-height: 37px;
+	color: black;
+	width: 800px;
+}
+
+#picture {
+	margin-left: 325px;
+}
 
 
 a.visit {
@@ -50,7 +86,20 @@ a.visit {
 	font-size: 16px;
 }
 
+#contact {
+	font-family: bleh;
+	font-size: 30px;
+	margin-top: 40px;
+	margin-right: 10px;
+	margin-left: 280px;
+	line-height: 37px;
+	color: black;
+	width: 800px;
+}
 
+#contact li {
+	margin-bottom: 10px;
+}
 
 .language a{
 	margin-left: 5px;
@@ -70,25 +119,8 @@ a.current {
 	text-decoration: underline;
 	}
 	
-.header {
-	font-size: 30px;
-	font-family: sans-serif;
-	padding-left: 10px;
-	padding-top: 20px;
-	margin-top: 20px;
-	color: black;
-}
 
-.text {
-	font-family: bleh;
-	font-size: 30px;
-	margin-top: 15px;
-	margin-right: 10px;
-	padding-left: 10px;
-	line-height: 37px;
-	color: black;
-	
-}
+
 
 .tip {
 	font-family: meow;
@@ -103,87 +135,17 @@ ul li {
 	list-style-type: none;
 }
 
-
-.english {
+#nav {
 	font-family: bleh;
-	font-size: 18px;
+	font-size: 15px;
 	float: left;
-	margin-top: -10px;
-}
-
-.spanish {
-	font-family: meow;
-	font-size: 18px;
-	float: right;
-	margin-right: 820px;
-	margin-top: -10px;
-}
-
-h2 {
-	font-family: wah;
-	font-size: 20px;
-	margin-left: 40px;
-	margin-top: 30px;
-
-}
-
-h3 {
-	font-family: wah;
-	font-size: 20px;
-	margin-left: 40px;
-	margin-top: 100px;
-}
-
-h4 {
-	font-family: wah;
-	font-size: 20px;
-	margin-top: -260px;
-	margin-left: 378px;
-}
-
-.english2 {
-	font-family: bleh;
-	font-size: 18px;
-	float: right;
-	margin-right: 600px;
-	margin-top: -400px;
-}
-
-.spanish2 {
-	font-family: meow;
-	font-size: 18px;
-	float: right;
-	margin-right: 450px;
-	margin-top: -400px;
-}
-
-.english3 {
-	font-family: bleh;
-	font-size: 18px;
-	display: inherit;
-	margin-left: 340px;
-	margin-bottom: 1000px;
-}
-
-.spanish3 {
-	font-family: meow;
-	font-size: 18px;
-	display: inherit;
-	margin-left: 400px;
-	margin-bottom: 100px;
-}
-
-#milk {
-	margin-left: 250px;
-	margin-top: -170px;
-}
-
-#bed {
-	margin-right: -100px;
-	margin-top: -170px;
-}
-
-#dog {
-	margin-left: 1200px;
-	margin-top: -400px;
-}
+	margin-top: 26px;
+	margin-left: 20px;
+	padding: 10 10 4 10;
+	list-style: none;
+	background: yellow;
+	background-position: center;
+	 }
+#nav li {
+	margin-bottom: 10px;
+	}
