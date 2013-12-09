@@ -1,0 +1,157 @@
+@font-face
+{
+font-family: bleh;
+src: url(fonts/regular.woff);
+}
+
+@font-face
+{
+font-family: wah;
+src: url(fonts/regularitalic.woff);
+}
+
+@font-face
+{
+font-family: meow;
+src: url(fonts/bold.woff);
+}
+
+@font-face
+{
+font-family: woof;
+src: url(fonts/bolditalic.woff);
+}
+
+@font-face
+{
+font-family: quack;
+src: url(fonts/light.woff);
+}
+
+@font-face
+{
+font-family: moo;
+src: url(fonts/lightitalic.woff);
+}
+
+h1 {
+	font-family: bleh;
+	font-size: 16px;
+	letter-spacing: -1px;
+	color: #339999;
+}
+
+h2 {
+	margin-top: 40px;
+	font-size: 14px;
+	font-family: bleh;
+	letter-spacing: -1px;
+}
+
+h3 {
+	font-size: 14px;
+	font-family: bleh;
+	letter-spacing: -1px;
+}
+
+h4 {
+	font-family: wah;
+	margin-top: -10px;
+	letter-spacing: -1px;
+	font-size: 20px;
+}
+
+h5 {
+	font-family: bleh;
+	margin-top: -10px;
+	letter-spacing: -1px;
+	font-size: 18px;
+}
+
+h6 {
+	font-family: bleh;
+	font-size: 22px;
+	letter-spacing: -1px;
+	color: #339999;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+
+
+input {
+	width: 100%;
+	max-width: 300px;
+	height: 40px;
+}
+
+.btn {
+	width: 100%;
+	max-width: 300px;
+	height: 40px;
+	font-family: bleh;
+	font-size: 14px;
+	letter-spacing: -.5px;
+}
+
+.search {
+	margin-top: 40px;
+	background-color: #339999;
+	color: white;
+
+}
+
+.header h1, .header img {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0;
+}
+
+.nav {
+	display: inline;
+	font-size: 10px;
+	padding: 30px;
+}
+
+.nav a:link {
+	color: black;
+}
+
+
+.btn a:link {
+	color: white;
+	text-decoration: none;
+}
+
+.btn a:visited {
+	color: white;
+}
+
+.header {
+	margin-top: 20px;
+}
+
+ul {
+	list-style-type: none;
+
+}
+
+li {
+	display: inline;
+	color: black;
+	text-decoration: underline;
+}
+
+.books img {
+	display: inline-block;
+	margin: 10px;
+
+}
+
+
+.footer {
+	font-family: bleh;
+	font-size: 12px;
+	padding-top: 60px;
+}
+
